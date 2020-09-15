@@ -42,7 +42,7 @@ This will place the results in the `res` directory.  Then proceed to the `graphs
 
 ```
 cd graphs
-gnuplot *.gnuplot
+find . -name "*.gnuplot" -exec gnuplot {} \;
 ```
 
 This will produce four graphs, as pdf files, that correspond to Figure 4-7.

@@ -3,7 +3,7 @@
 To generate the graphs, you must first populate the `res` directory. Then
 
 ```
-gnuplot *.gnuplot
+find . -name "*.gnuplot" -exec gnuplot {} \;
 ```
 
 This will produce the following graphs in used in the paper:
