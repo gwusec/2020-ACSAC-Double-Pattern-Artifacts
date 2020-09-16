@@ -13,6 +13,6 @@ mkdir -p ../res/scomp 2> /dev/null
 # second component pattern guessing
 ./sim_guess_1patt.py -2 -n 1 --b1 ../patts/bl/bl_first.txt -o ../res/scomp/first.txt  ../patts/scomp/first-1.txt ../patts/pat/all_related_freq.txt
 ./sim_guess_1patt.py -2 -n 1 --b2 ../patts/bl/bl_both.txt -o ../res/scomp/both.txt  ../patts/scomp/both-1.txt ../patts/pat/all_related_freq.txt
-./sim_guess_1patt.py -2 -n 1 -o ../res/scomp/control-1.txt  ../patts/scomp/control-1.txt ../patts/pat/all_related_freq.txt
+./sim_guess_1patt.py -2 -n 1 -o ../res/scomp/control.txt  ../patts/scomp/control-1.txt ../patts/pat/all_related_freq.txt
 
 
