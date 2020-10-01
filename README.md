@@ -47,3 +47,9 @@ find . -name "*.gnuplot" -exec gnuplot {} \;
 
 This will produce four graphs, as pdf files, that correspond to Figure 4-7.
 
+## Requirements
+
+* python2 (version >= 2.7)
+* python3 (version >= 3.6)
+* gnuplot (version >= 5.0)
+
